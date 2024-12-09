@@ -19,7 +19,7 @@ jobs:
     - name: Setup Xcode
       uses: maxim-lobanov/setup-xcode@v1
       with:
-        xcode-version: '13.2.1'
+        xcode-version: '16.1.0'
 
     - name: Build
       run: xcodebuild -scheme BrightIntosh -configuration Release build
